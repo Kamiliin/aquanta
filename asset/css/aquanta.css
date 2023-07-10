@@ -1,0 +1,161 @@
+
+
+
+.header{
+    background-image: url(/asset/img/banner.png) ;
+    height: auto;
+}
+
+.header-thanks{
+  background-image: url(/asset/img/banner_agradecimeinto.png) ;
+  height: auto;
+}
+
+.header p {
+    color: #ffffff;
+}
+
+.section1{
+    background-color: #eeeeee;
+}
+
+.section1 p {
+    font-size: 35px;
+    color: #000000;
+    padding-top: 40px;
+}
+
+
+.section2{
+    background-image: url(/asset/img/section2.png) ;
+    height: auto;
+    padding-top: 70px;
+    text-align: center;
+    color:#ffffff ;
+
+    background-size: cover;
+}
+
+.section3{
+    background-color: #ffffff;
+    padding-top: 70px;
+    text-align: justify;
+    font-size: 22px;
+    padding-bottom: 70px;
+}
+.section3 p {
+    padding-top: 35px;
+}
+
+.footer{
+    padding-top: 70px;
+    background-color: #f6f6f6;
+}
+
+.footer p {
+    padding: 30px;
+    text-align: center;
+    color: #9f9f9f;
+
+}
+
+
+/*agradecimiento*/
+
+
+.header-2{
+    text-align: center;
+    background-image: url(/asset/img/banner.png);
+    color: #ffffff;
+}
+
+.image-container {
+    overflow: hidden;
+  }
+  
+  .animated-image {
+    animation: slideRight 9s infinite alternate;
+  }
+  
+  @keyframes slideRight {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(50%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+
+  .parallax {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .move-on-hover {
+    transition: transform 0.3s ease;
+  }
+  
+  .move-on-hover:hover {
+    animation: moveUpDown .3s infinite alternate;
+  }
+  
+  @keyframes moveUpDown {
+    from {
+      transform: translateY(0);
+    }
+    to {
+      transform: translateY(-10px);
+    }
+  }
+  
+
+  .change-color-on-hover:hover {
+    filter: brightness(140%);
+  }
+  
+
+  @font-face {
+    font-family: "MetricHPE Light";
+    font-style: normal;
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Light.eot");
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Light.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "MetricHPE Regular";
+    font-style: normal;
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.eot");
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Regular.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "MetricHPE Medium";
+    font-style: normal;
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Medium.eot");
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Medium.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "MetricHPE Black";
+    font-style: normal;
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Black.eot");
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Black.woff") format("woff");
+  }
+  
+  @font-face {
+    font-family: "MetricHPE Bold";
+    font-style: normal;
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Bold.eot");
+    src: url("https://hpefonts.s3.amazonaws.com/web/MetricHPE-Web-Bold.woff") format("woff");
+  }
+  
+  
+  body {
+    font-family: "MetricHPE Regular", Arial, sans-serif;
+  
+  }
+  
